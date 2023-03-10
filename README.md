@@ -9,8 +9,7 @@ This program requires the following command line tools to be installed:
 - `ffprobe`
 - `ffmpeg`
 
-These tools can typically be installed using your operating system's package manager. For example, on Ubuntu, you can install them with the following command:
-
+These tools can typically be installed using your operating system's package manager. 
 
 ## Usage
 
