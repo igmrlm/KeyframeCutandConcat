@@ -1,5 +1,7 @@
 # KeyframeCutandConcat
 
+This program is perfect for editing HDR Video without an expensive Graphics card that supports HDR editing, a software licence for Davinci Resolve Studio / Adobe Premiere pro & a HDR screen
+
 This Python program is designed to trim video files to specific start and stop times using the `ffprobe` and `ffmpeg` command line tools. It sequentially goes through each video in the folder it's been executed from, asks the user to specify the start and stop times in the format `mm:ss`, finds the closest iframe to the chosen time using `ffprobe`, and trims the video to that time using `ffmpeg`. The trimmed video is saved in a subfolder titled `concat` as `original_filename_trimmed.mp4`.
 
 ## Dependencies
