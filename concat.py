@@ -1,7 +1,7 @@
 import os
 
 # get list of video files in current directory
-video_files = [f for f in os.listdir('.') if os.path.isfile(f) and f.endswith('.mp4')]
+video_files = [f for f in os.listdir('.') if os.path.isfile(f) and f.lower().endswith('.mp4')]
 
 # create filelist.txt file with list of video files to concatenate
 with open('filelist.txt', 'w') as f:
